@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-carousel{
+  animation: marquee 60s linear infinite
+}

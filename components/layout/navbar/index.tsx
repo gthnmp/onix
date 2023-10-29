@@ -20,7 +20,7 @@ const menu = [
 
 export default function Navbar () {
   return(
-    <nav className="fixed top-0 flex items-center justify-between p-4 lg:px-6 w-screen">
+    <nav className="sticky top-0 flex items-center justify-between p-4 lg:px-6 w-screen bg-neutral-50 dark:bg-neutral-900">
       <div className="flex w-full items-center">
         <div className="flex w-full md:w-1/3">
           <Link href="/" className="mr-2 flex w-full items-center justify-center md:w-auto lg:mr-6">

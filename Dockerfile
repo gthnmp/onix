@@ -3,9 +3,12 @@ FROM node:20
 WORKDIR /home/app
 
 COPY package*.json .
+
 RUN npm ci
 
-ENV NODE_ENV=development
+RUN npm run build
+
+ENV NODE_ENV=production
 
 EXPOSE 3000
 
